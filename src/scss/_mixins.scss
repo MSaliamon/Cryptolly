@@ -5,7 +5,7 @@
     align-items: $ai;
     gap: $gp;
 }
-@mixin Sofia($fw, $fs, $lh) {
+@mixin Sofia($fs, $fw, $lh) {
     font-family: 'Sofia Sans';
     font-weight: $fw;
     font-size: $fs;
