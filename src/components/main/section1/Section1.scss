@@ -1,0 +1,78 @@
+@use '../../../scss/mixins';
+@use '../../../scss/reset';
+@use '../../../scss/vars';
+
+.section1 {
+    @include mixins.flex(column, center, center, 96px);
+    padding-top: 89px;
+    &-container {
+        @include mixins.flex(column, center, center, 64px);
+        .section1-textbox {
+            @include mixins.flex(column, center, center, 32px);
+            &__title {
+                @include mixins.Sofia(61px, 700, 110%);
+                text-align: center;
+                width: 60%;
+            }
+            &__text {
+                @include mixins.Sofia(14px, 400, 27px);
+                width: 35%;
+                text-align: center;
+            }
+        }
+        &__btn {
+            @include mixins.Sofia(18px, 600, 160%);
+            padding: 18px 32px;
+        }
+    }
+    &-container2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        .section1-box {
+            @include mixins.flex(column, flex-start, flex-start, 28px);
+            background-color: vars.$third-color;
+            padding: 24px;
+            .section1-cont {
+                @include mixins.flex(row, flex-start, flex-start, 22px);
+                &__textbox {
+                    @include mixins.flex(column, flex-start, flex-start, 8px);
+                    &-title {
+                        @include mixins.Sofia(16px, 400, 24px);
+                    }
+                    &-text {
+                        @include mixins.Sofia(25px, 600, 27px);
+                    }
+                }
+                &__text {
+                    @include mixins.Sofia(16px, 400, 24px);
+                }
+            }
+            .section1-cont2 {
+                @include mixins.flex(row, flex-start, flex-end, 55px);
+                &__percent {
+                    @include mixins.flex(row, flex-start, center, 9px);
+                    &-text {
+                        @include mixins.Sofia(18px, 600, 27px);
+                        color: vars.$percent-color;
+                    }
+                    &-text2 {
+                        @include mixins.Sofia(18px, 600, 27px);
+                        color: vars.$percent-color2;
+                    }
+                }
+            }
+        }
+        .section1-box2 {
+            padding: 67px 103px;
+            background-color: vars.$third-color;
+            &__btn {
+                @include mixins.Sofia(14px, 600, 22px);
+                padding: 12px 24px 12px 24px;
+                border: 1px solid vars.$main-color;
+                border-radius: 100px;
+            }
+        }
+    }
+}
