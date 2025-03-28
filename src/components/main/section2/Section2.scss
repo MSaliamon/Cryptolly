@@ -1,0 +1,45 @@
+@use '../../../scss/mixins';
+@use '../../../scss/reset';
+@use '../../../scss/vars';
+
+
+.section2 {
+    @include mixins.flex(column, center, center, 56px);
+    &-textbox {
+        @include mixins.flex(column, center, center, 24px);
+        &__title {
+            @include mixins.Sofia(49px, 700, 110%);
+            text-align: center;
+            width: 60%;
+        }
+        &__text {
+            @include mixins.Sofia(16px, 400, 24px);
+            width: 45%;
+            text-align: center;
+        }
+    }
+    &-container {
+        @include mixins.flex(row, center, center, 33px);
+        .section2-box {
+            @include mixins.flex(column, center, center, 40px);
+            background-color: vars.$third-color;
+            border-radius: 12px;
+            padding: 35px 40px;
+            width: 16%;
+            &--more-bottom {
+                margin-top: 70px;
+            }
+            &__textbox {
+                @include mixins.flex(column, center, center, 16px);
+                &-text1 {
+                    @include mixins.Sofia(25px, 700, 120%);
+                }
+                &-text2 {
+                    @include mixins.Sofia(16px, 400, 24px);
+                    width: 90%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

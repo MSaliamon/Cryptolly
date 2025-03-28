@@ -1,0 +1,20 @@
+<svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-14" y="-14" width="119" height="119"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(7px);clip-path:url(#bgblur_0_3478_1091_clip_path);height:100%;width:100%"></div></foreignObject><circle data-figma-bg-blur-radius="14" cx="45.5" cy="45.5" r="45.5" fill="#34384C"/>
+<g filter="url(#filter1_d_3478_1091)">
+<path d="M53.1086 41.3208V37.3846C53.1086 32.7774 49.3722 29.0411 44.7651 29.0411C40.1579 29.0209 36.4069 32.7389 36.3867 37.3479V37.3846V41.3208" stroke="#11CABE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M51.7515 62.9576H37.743C33.904 62.9576 30.791 59.8464 30.791 56.0056V48.1424C30.791 44.3016 33.904 41.1904 37.743 41.1904H51.7515C55.5905 41.1904 58.7035 44.3016 58.7035 48.1424V56.0056C58.7035 59.8464 55.5905 62.9576 51.7515 62.9576Z" stroke="#11CABE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44.7467 50.0381V54.1099" stroke="#11CABE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_3478_1091_clip_path" transform="translate(14 14)"><circle cx="45.5" cy="45.5" r="45.5"/>
+</clipPath><filter id="filter1_d_3478_1091" x="19" y="20" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0679514 0 0 0 0 0.790382 0 0 0 0 0.747036 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3478_1091"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3478_1091" result="shape"/>
+</filter>
+</defs>
+</svg>

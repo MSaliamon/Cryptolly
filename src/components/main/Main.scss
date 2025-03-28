@@ -1,0 +1,8 @@
+@use '../../scss/mixins';
+@use '../../scss/reset';
+@use '../../scss/vars';
+
+
+.main {
+    @include mixins.flex(column, flex-start, center, 120px);
+}
