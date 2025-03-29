@@ -1,0 +1,37 @@
+@use '../../../scss/mixins';
+@use '../../../scss/reset';
+@use '../../../scss/vars';
+
+.section3 {
+    @include mixins.flex(column, center, center, 64px);
+    &-textbox {
+        @include mixins.flex(column, center, center, 24px);
+        &__title {
+            @include mixins.Sofia(49px, 700, 110%);
+            text-align: center;
+            width: 60%;
+        }
+        &__text {
+            @include mixins.Sofia(16px, 400, 24px);
+            width: 45%;
+            text-align: center;
+        }
+    }
+    &-container {
+        @include mixins.flex(row, center, center, 24px);
+        .section3-box {
+            @include mixins.flex(column, center, center, 32px);
+            width: 16%;
+            &__textbox {
+                @include mixins.flex(column, center, center, 8px);
+                &-text1 {
+                    @include mixins.Sofia(25px, 700, 120%);
+                }
+                &-text2 {
+                    @include mixins.Sofia(16px, 400, 24px);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
