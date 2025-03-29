@@ -2,3 +2,22 @@
 @use '../../../scss/reset';
 @use '../../../scss/vars';
 
+.section4 {
+    @include mixins.flex(row, center, center, 220px);
+    &-slider {
+        &__slide {
+            @include mixins.flex(column, center, center, 32px);
+            background-color: vars.$third-color;
+            padding: 44px;
+            border-radius: 12px;
+            &-text1 {
+                @include mixins.Sofia(25px, 700, 120%);
+            }
+            &-text2 {
+                @include mixins.Sofia(16px, 400, 24px);
+                width: 45%;
+                text-align: center;
+            }
+        }
+    }
+}
