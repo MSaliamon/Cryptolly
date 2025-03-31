@@ -12,10 +12,16 @@
             padding: 12px 24px;
             border: 1px solid vars.$main-color;
             border-radius: 100px;
+            &-link {
+                color: vars.$main-color;
+            }
         }
         &__reges {
             @include mixins.Sofia(14px, 600, 22px);
             padding: 12px 24px;
+            &-link {
+                color: vars.$main-color;
+            }
         }
     }
 }

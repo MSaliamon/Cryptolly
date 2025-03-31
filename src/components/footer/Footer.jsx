@@ -3,6 +3,7 @@ import logo from '../../assets/homepage/svg/logo.svg'
 import LinkedIn from '../../assets/homepage/svg/LinkedIn.svg'
 import Facebook from '../../assets/homepage/svg/Facebook.svg'
 import Instagram from '../../assets/homepage/svg/Instagram.svg'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
         <div className="footer-container1">
             <div className="footer-box1">
                 <div className="footer-box1__cont">
-                    <img src={logo} alt="logo" className="footer-box1__cont-img" />
+                    <Link to="/"><img src={logo} alt="logo" className="footer-box1__cont-img" /></Link>
                     <p className="footer-box1__cont-text">Your best crypto partner.</p>
                 </div>
                 <div className="footer-box1__socials">
